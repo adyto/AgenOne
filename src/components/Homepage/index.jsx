@@ -8,17 +8,11 @@ import TruestedItem from './TruestedItem';
 const HomePage = () => {
   return (
     <>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-        error qui minima, neque praesentium vero laboriosam mollitia soluta
-        inventore vitae velit nemo a consequatur, sequi, fuga quam facere?
-        Consequatur, provident?
-      </h1>
-      {/* <Hero /> */}
-      {/* <ServiceItem />
-      <ArchievenmentItem /> */}
-      {/* <OurWorks /> */}
-      {/* <TruestedItem /> */}
+      <Hero />
+      <ServiceItem />
+      <ArchievenmentItem />
+      <OurWorks />
+      <TruestedItem />
     </>
   );
 };
