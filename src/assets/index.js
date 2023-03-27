@@ -22,3 +22,4 @@ export { default as icCompany3 } from './icon/ic-Company3.png';
 export { default as icCompany4 } from './icon/ic-Company4.png';
 export { default as icCompany5 } from './icon/ic-Company5.png';
 export { default as icCompany6 } from './icon/ic-Company6.png';
+export { default as icArrowWorks } from './icon/ic-ArrowWorks.png';
