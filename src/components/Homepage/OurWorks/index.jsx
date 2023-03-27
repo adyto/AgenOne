@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { imgWorks1 } from '../../../assets';
+import { imgOrnamentWorks, imgCircle1, imgCircle2 } from '../../../assets';
 import { client } from '../../../client';
 import WorksCard from './WorksCard';
 
@@ -33,9 +33,11 @@ const OurWorks = () => {
   }, []);
   return (
     <div
-      className="bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${imgWorks1})` }}
+      className="bg-no-repeat bg-cover bg-center relative bg-[#0C111F]"
+      style={{ backgroundImage: `url(${imgOrnamentWorks})` }}
     >
+      <img src={imgCircle1} className="absolute left-0 top-0 " />
+      <img src={imgCircle2} className="absolute right-0 bottom-0" />
       <div className="container mx-auto justify-center items-center px-4 flex flex-col xl:px-0 xl:py-24">
         <h1 className=" font-bold text-white text-center xl:text-7xl">
           Our Project Have Been{' '}
@@ -54,7 +56,7 @@ const OurWorks = () => {
                 key={item + index}
                 onClick={() => handleWorkFilter(item)}
                 className={`${
-                  activeFilter == item
+                  activeFilter === item
                     ? 'text-white rounded-full bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 py-4 px-6'
                     : 'text-black py-4 px-6'
                 } capitalize cursor-pointer `}

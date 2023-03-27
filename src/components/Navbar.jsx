@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-row justify-between container mx-auto px-4 xl:px-0 xl:py-5">
       <Link className="flex flex-row items-center xl:gap-x-3">
-        <img src={imgLogo} />
+        <img src={imgLogo} alt="logoNavbar" />
         <h1 className="capitalize font-bold text-white xl:text-2xl">Agenone</h1>
       </Link>
       <div className="flex flex-row text-white gap-10 capitalize items-center font-medium xl:text-lg">

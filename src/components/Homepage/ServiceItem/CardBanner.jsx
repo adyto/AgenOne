@@ -13,7 +13,7 @@ const CardBanner = ({ handleClick, active, id, no, title, desc }) => {
             <span>{no}</span>
             <span>{title}</span>
           </div>
-          <img src={icArrowRight} />
+          <img src={icArrowRight} alt="iconArrowRight" />
         </div>
       ) : (
         <div className="flex flex-col">
@@ -22,11 +22,11 @@ const CardBanner = ({ handleClick, active, id, no, title, desc }) => {
               <span>{no}</span>
               <span>{title}</span>
             </div>
-            <img src={icArrowDown} />
+            <img src={icArrowDown} alt="iconArrowDown" />
           </div>
           <div className="flex flex-col xl:ml-20">
             <p className="w-[70%] xl:text-lg xl:mt-6 xl:mb-10">{desc}</p>
-            <img src={imgService1} className="rounded-xl" />
+            <img src={imgService1} className="rounded-xl" alt="imgService1" />
           </div>
         </div>
       )}

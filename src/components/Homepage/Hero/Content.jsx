@@ -19,7 +19,7 @@ const Content = () => {
       </h2>
       <button className="flex flex-row items-center bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 rounded-full text-lg font-medium xl:px-8 xl:py-5">
         Contack Us
-        <img src={icArrowRight} className="ml-2" />
+        <img src={icArrowRight} className="ml-2" alt="iconArrowRight" />
       </button>
     </div>
   );

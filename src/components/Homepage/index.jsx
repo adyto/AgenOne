@@ -3,6 +3,7 @@ import ArchievenmentItem from './ArchievementItem';
 import Hero from './Hero';
 import OurWorks from './OurWorks';
 import ServiceItem from './ServiceItem';
+import Testimonials from './Testimonials';
 import TruestedItem from './TruestedItem';
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <ArchievenmentItem />
       <OurWorks />
       <TruestedItem />
+      <Testimonials />
     </>
   );
 };
