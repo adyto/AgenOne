@@ -11,7 +11,7 @@ const Hero = () => {
       className="bg-[#0C111F] text-white relative w-full h-full xl:pb-24"
       style={{ backgroundImage: `url(${imgOrnamentBox})` }}
     >
-      <Navbar />
+      {/* <Navbar /> */}
       <Caption />
       <Content />
       <Banner />

@@ -31,7 +31,7 @@ const ArchievenmentItem = () => {
           digital age. We take pride in our work and strive to exceed your
           expectations every time.
         </h1>
-        <div className="flex flex-row bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 rounded-[20px] xl:p-8">
+        <div className="flex flex-row justify-center  bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 rounded-[20px] xl:p-8">
           {dataItem.map((item) => (
             <div className="flex flex-col max-w-xs w-full text-center gap-y-3">
               <p className="font-bold text-white xl:text-7xl">{item.total}</p>

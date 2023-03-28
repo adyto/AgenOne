@@ -38,7 +38,7 @@ const OurWorks = () => {
     >
       <img src={imgCircle1} className="absolute left-0 top-0 " />
       <img src={imgCircle2} className="absolute right-0 bottom-0" />
-      <div className="container mx-auto justify-center items-center px-4 flex flex-col xl:px-0 xl:py-24">
+      {/* <div className="container mx-auto justify-center items-center px-4 flex flex-col xl:px-0 xl:py-24">
         <h1 className=" font-bold text-white text-center xl:text-7xl">
           Our Project Have Been{' '}
           <span className="bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 bg-clip-text text-transparent">
@@ -73,7 +73,7 @@ const OurWorks = () => {
           )}
         </div>
         <WorksCard workItem={sortedDates} />
-      </div>
+      </div> */}
     </div>
   );
 };

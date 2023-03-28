@@ -17,7 +17,10 @@ const WorksCard = ({ workItem }) => {
             />
             <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-black/50 rounded-xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
               <Link className="border-none bg-gradient-to-r from-white to-white/0 rounded-full p-5">
-                <img src={icArrowWorks} />
+                <img
+                  src={icArrowWorks}
+                  className="xl:scale-95 xl:hover:scale-100 xl:duration-300"
+                />
               </Link>
             </div>
           </div>

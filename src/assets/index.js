@@ -1,5 +1,6 @@
 export { default as imgLogo } from './img/img-logo.png';
 export { default as icArrowRight } from './icon/ic-arrowRight.png';
+export { default as icArrowRight2 } from './icon/ic-arrowRight2.png';
 export { default as icArrowDown } from './icon/ic-arrowDown.png';
 export { default as imgOrnamentBox } from './img/img-ornamentBox.png';
 export { default as imgOrnanentBanner1 } from './img/img-ornamentBanner1.png';
@@ -23,3 +24,6 @@ export { default as icCompany4 } from './icon/ic-Company4.png';
 export { default as icCompany5 } from './icon/ic-Company5.png';
 export { default as icCompany6 } from './icon/ic-Company6.png';
 export { default as icArrowWorks } from './icon/ic-ArrowWorks.png';
+export { default as imgFooterUnion } from './img/img-FooterUnion.png';
+export { default as imgCircleFooter1 } from './img/img-CircleFooter1.png';
+export { default as imgCircleFooter2 } from './img/img-CircleFooter2.png';

@@ -5,6 +5,7 @@ import OurWorks from './OurWorks';
 import ServiceItem from './ServiceItem';
 import Testimonials from './Testimonials';
 import TruestedItem from './TruestedItem';
+import { Footer } from '../../components';
 
 const HomePage = () => {
   return (
@@ -13,8 +14,9 @@ const HomePage = () => {
       <ServiceItem />
       <ArchievenmentItem />
       <OurWorks />
-      <TruestedItem />
+      {/* <TruestedItem /> */}
       <Testimonials />
+      <Footer />
     </>
   );
 };
