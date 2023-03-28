@@ -12,30 +12,30 @@ import {
 const Footer = () => {
   return (
     <div
-      className="bg-no-repeat bg-cover bg-center  pt-10 2xl:pt-48   relative   bg-white"
+      className="bg-no-repeat bg-cover bg-center  pt-10 lg:pt-10 lg:pb-6 xl:pt-14 2xl:pt-48   relative   bg-white"
       style={{ backgroundImage: `url(${imgFooterUnion})` }}
     >
-      <div className="container mx-auto flex flex-col">
-        <div className="flex flex-row justify-between items-center text-white xl:px-24 ">
-          <h1 className="max-w-xl font-semibold xl:text-[44px] 2xl:text-6xl 2xl:max-w-2xl">
+      <div className="container mx-auto flex flex-col px-4 2xl:px-0">
+        <div className="flex flex-row justify-between items-center text-white lg:px-20 xl:px-24 ">
+          <h1 className="max-w-xl font-semibold lg:text-4xl xl:text-[44px] 2xl:text-6xl 2xl:max-w-2xl">
             Let’s discuss and bring your vision to life.
           </h1>
-          <Link className="flex flex-row bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 rounded-full gap-2 xl:py-5 xl:px-8 2xl:py-7 2xl:px-10 2xl:text-xl">
+          <Link className="flex flex-row bg-gradient-to-br from-text-color-palette-1 to-text-color-palette-2 rounded-full gap-2 lg:py-4 lg:px-6 xl:py-5 xl:px-8 2xl:py-7 2xl:px-10 2xl:text-xl">
             Lets Talk
             <img src={icArrowRight2} />
           </Link>
         </div>
         <img
           src={imgDivider}
-          className="xl:mt-10 xl:mb-[100px] 2xl:mt-12 2xl:mb-28"
+          className="lg:mt-8 lg:mb-20 xl:mt-10 xl:mb-[100px] 2xl:mt-12 2xl:mb-28"
         />
         <div className="flex flex-row justify-between">
-          <div className="flex flex-col text-[#B6B8BC] xl:w-[413px] 2xl:w-[500px]">
-            <Link className="flex flex-row items-center text-white xl:gap-3">
+          <div className="flex flex-col text-[#B6B8BC] lg:w-96 xl:w-[413px] 2xl:w-[500px]">
+            <Link className="flex flex-row items-center text-white gap-2 xl:gap-3">
               <img src={imgLogo} className="2xl:w-16" />
               <p className="font-bold xl:text-2xl 2xl:text-3xl">Agenone</p>
             </Link>
-            <p className=" xl:text-lg xl:mt-6 xl:mb-10 2xl:mt-8 2xl:mb-12 2xl:text-xl">
+            <p className=" lg:mt-5 lg:mb-8 xl:text-lg xl:mt-6 xl:mb-10 2xl:mt-8 2xl:mb-12 2xl:text-xl">
               We're a team of experienced designers, developers, and marketers,
               passionate about delivering exceptional digital solutions.
             </p>
@@ -43,10 +43,10 @@ const Footer = () => {
               hello@agenone.com
             </p>
           </div>
-          <div className="flex flex-row z-10 xl:gap-[120px] 2xl:gap-36 2xl:text-lg ">
+          <div className="flex flex-row z-10 lg:gap-24 xl:gap-[120px] 2xl:gap-36 2xl:text-lg ">
             <div className="flex flex-col">
               <p className="mb-6 text-white">Menu</p>
-              <div className="flex flex-col xl:gap-4">
+              <div className="flex flex-col gap-2 xl:gap-4">
                 {['home', 'service', 'about-us', 'project', 'contact'].map(
                   (item) => (
                     <Link
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col">
               <p className="mb-6 text-white">Support</p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-2 xl:gap-4">
                 {['faq', 'privacy-policy', 'terms-of-service'].map((item) => (
                   <Link to={`/${item}`} className="text-[#B6B8BC] capitalize">
                     {item === 'terms-of-service'
@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col">
               <p className="mb-6 text-white">Social Media</p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-2 xl:gap-4">
                 {[
                   'linkedin',
                   'twitter',
@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img src={imgDivider} className="xl:my-10 2xl:my-12" />
+        <img src={imgDivider} className="lg:my-8 xl:my-10 2xl:my-12" />
         <p className="text-[#B6B8BC] text-center xl:py-10 xl:text-lg">
           Copyright © 2023 by Agenone. All rights reserved.
         </p>
