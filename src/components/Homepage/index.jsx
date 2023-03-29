@@ -14,7 +14,7 @@ const HomePage = () => {
       <ServiceItem />
       <ArchievenmentItem />
       <OurWorks />
-      <TruestedItem />
+      {/* <TruestedItem /> */}
       <Testimonials />
       <Footer />
     </>
