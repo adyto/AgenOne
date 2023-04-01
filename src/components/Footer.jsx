@@ -109,6 +109,13 @@ const Footer = () => {
         <p className="text-[#B6B8BC] text-center xl:py-10 xl:text-lg">
           Copyright © 2023 by Agenone. All rights reserved.
         </p>
+        <a
+          href="https://www.figma.com/community/file/1220307995673140735"
+          target={'_blank'}
+          className="text-[#B6B9BC] mx-auto max-w-xs"
+        >
+          Figma File Documentation
+        </a>
       </div>
       <img src={imgCircleFooter1} className="absolute bottom-24 left-0" />
       <img src={imgCircleFooter2} className="absolute bottom-0 right-0" />
