@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Project = () => {
+const ServicesItem = () => {
   return (
     <div className="flex flex-col">
       <div className="bg-[#0C111F]">
         <Navbar />
       </div>
-      Project
+      ServicesItem
     </div>
   );
 };
 
-export default Project;
+export default ServicesItem;
