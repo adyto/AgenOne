@@ -3,4 +3,4 @@ export { default as Footer } from './Footer';
 
 export { default as HomePage } from './Homepage';
 export { default as ServicesItem } from './ServicesItem';
-export { default as Project } from './Project';
+export { default as ProjectItem } from './ProjectItem';

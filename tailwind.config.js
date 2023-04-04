@@ -7,9 +7,9 @@ module.exports = {
 
       // },
       colors: {
-        'regal-blue': '#243c5a',
         'text-color-palette-1': '#38C682',
         'text-color-palette-2': '#00796D',
+        'bg-color-palette-2': '#0C111F',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -33,3 +33,4 @@ export { default as icAvatar3 } from './icon/ic-Avatar3.png';
 export { default as icAvatar4 } from './icon/ic-Avatar4.png';
 export { default as icAvatar5 } from './icon/ic-Avatar5.png';
 export { default as icAvatar6 } from './icon/ic-Avatar6.png';
+export { default as icMenu } from './icon/ic-Menu.png';
