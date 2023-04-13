@@ -6,6 +6,7 @@ export { default as imgOrnamentBox } from './img/img-ornamentBox.png';
 export { default as imgOrnanentBanner1 } from './img/img-ornamentBanner1.png';
 export { default as imgOrnanentBanner2 } from './img/img-ornamentBanner2.png';
 export { default as imgShapeBanner } from './img/img-ShapeBanner.png';
+export { default as imgShapeBanner2 } from './img/img-ShapeBanner2.png';
 export { default as icBanner1 } from './icon/ic-Banner1.png';
 export { default as icBanner2 } from './icon/ic-Banner2.png';
 export { default as icBanner3 } from './icon/ic-Banner3.png';

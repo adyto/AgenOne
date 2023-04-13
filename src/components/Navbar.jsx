@@ -8,7 +8,7 @@ const Navbar = () => {
   console.log(toggle);
 
   return (
-    <div className="bg-[#0C111F] text-white">
+    <div className="bg-[#0C111F] text-white w-full h-full">
       <div className="flex flex-row justify-between container mx-auto px-4 max-md:hidden md:py-5 xl:px-0">
         <Link className="flex flex-row items-center md:gap-x-2 xl:gap-x-3">
           <img
@@ -39,7 +39,7 @@ const Navbar = () => {
           contack us
         </button>
       </div>
-      <div className="flex flex-row fixed bg-bg-color-palette-2/50 shadow-2xl backdrop-blur-sm border-b-2 border-bg-color-palette-2/60 w-full justify-between p-6 md:hidden">
+      <div className="flex flex-row fixed bg-bg-color-palette-2/50 shadow-2xl backdrop-blur-sm border-b-2 border-bg-color-palette-2/60 w-full justify-between p-6 z-50 md:hidden">
         <Link className="flex flex-row items-center gap-x-2">
           <img src={imgLogo} alt="logoNavbar" className="h-6" />
           <h1 className="capitalize font-bold text-white text-xl">Agenone</h1>
@@ -47,7 +47,7 @@ const Navbar = () => {
         <img src={icMenu} onClick={() => setToggle(true)} />
       </div>
       {toggle && (
-        <div className="fixed top-0 right-0 w-3/4 h-full bg-bg-color-palette-2 p-6 md:hidden">
+        <div className="fixed top-0 right-0 w-3/4 h-full bg-bg-color-palette-2 p-6 z-50 md:hidden">
           <div className="flex flex-col w-full items-end">
             <AiOutlineClose
               onClick={() => setToggle(false)}
